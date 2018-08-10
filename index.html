@@ -1,15 +1,53 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
-    <link rel="stylesheet" href="css/styles.css" type="text/css">
-    <script type="text/javascript" href="js/jquery-3.3.1.js"></script>
-    <script type="text/javascript" href="js/scripts.js"></script>
-    <title>Programming types</title>
-  </head>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+  <script type="text/javascript" src="js/scripts.js"></script>
+  <title>Programming types</title>
+</head>
   <body>
-    
-
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Programming</h1>
+        <h4>Which programming language best fits you? Let's find out!</h4>
+      </div>
+        <!-- this is the the survey form -->
+      <form id="questions">
+        <div class="mainQuestions">
+          <h2>Do you enjoy coding?</h2>
+          <select class="form-control" id="question1">
+            <option value="option1">Yes</option>
+            <option value="option2">I'd rather do something else.</option>
+          </select>
+          <h2>Which would you rather spend your time doing?</h2>
+          <select class="form-control" id="question2">
+            <option value="option1">Designing what I believe beauty should be</option>
+            <option value="option2">Calculations and performance!</option>
+            <option value="option3">A little of both beauty and pain</option>
+          </select>
+          <h2>Are you a fan of</h2>
+          <select class="form-control" id="question3">
+            <option value="option1">Android</option>
+            <option value="option2">Microsoft</option>
+            <option value="option3">World Wide Web</option>
+          </select>
+          <h2>Where do you see yourself in 5 years?
+            <select class="form-control" id="beverage">
+              <option value="optiong1">Working for startups and small businesses</option>
+              <option value="option2">Deep within big tech companies</option>
+            </select>
+          <h2>If you could do just 1..</h2>
+          <select class="form-control" id="beverage">
+            <option value="option1">Relaxing at the beach enjoying my view with a cold drink in my hand.</option>
+            <option value="option2">In the woods trying to survive with only just a 3in knife.</option>
+            <option value="option3">Be in an open field, tent put up, fire burning, hunting for myself.</option>
+          </select>
+          <button type="submit" class="btn">Submit</button>
+        </div>
+      </form>
+    </div>
   </body>
 </html>
