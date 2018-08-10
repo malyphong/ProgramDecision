@@ -1,5 +1,6 @@
 $(document).ready(function() {
-  $("#survey").submit(.chanege,function(event) {
+  $("#survey").submit.change(function(event) {
+    event.preventDefault();
 
     var que1 = ("#question1").val();
     var que2 = ("#question2").val();
@@ -7,14 +8,18 @@ $(document).ready(function() {
     var que4 = ("#question4").val();
     var que5 = ("#question5").val();
 
-    if (que2 === '3' && que3 === '1' && que5=== '3') {
-      $(".programLang").show.image("#java")
+    if (que2 === '3' && que3 === '1' && que5 === '3' ! que1 === '2') {
+      $(".programLang").show.image('photo/JS.png')
+    }
+      else if (que2 === '2' && que3 === '2' && que5 === '2' ! que1 === '2') {
+        $(".programLang").show.image('photo/csharp.png')
+    }
+      else if (que3 === '3' && que4 === '2' && que5 === '1' ! que1 === '2') {
+        $(".programLang").show.image('photo/php.png');
+    }
+      else( que1 === '2') {
+        alert("This survey is not meant for you!")
       }
-      else if (que 2 === '2' && que3 === '2' && que5 === '2') {
-        $(".programLang").show.image("sharp")
-      }
-      else (que3 === '3' && que4 === '2' && que5 === '1'){
-        $(".programLang").show.image("php")
-      }
+
   });
 });
