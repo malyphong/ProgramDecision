@@ -1,24 +1,24 @@
 $(document).ready(function() {
   alert("omg!")
-  $("survey").on("select",function(event) {
-    event.preventDefault();
-
-    var que1 = $("#question1").this.val();
-    var que2 = $("#question2").this.val();
-    var que3 = $("#question3").this.val();
-    var que4 = $("#question4").this.val();
-    var que5 = $("#question5").this.val();
+  $(".form-group").submit(function(event) {
+    alert("fuck")
+    var que1 = $("#question1").val();
+    var que2 = $("#question2").val();
+    var que3 = $("#question3").val();
+    var que4 = $("#question4").val();
+    var que5 = $("#question5").val();
 
     if (que1 === '2') {
         alert("This survey is not meant for you!")
         }
-      else if (que2 === '2' && que3 === '2' || que3 === '1' && que5 === '2') {
-        $("img").show('photo/csharp.png')
+      else if (que2 === '2' && que3 === '2' || que3 === '1') {
+        $(".programLang").show('#php')
         }
-      else if (que3 === '3' && que4 === '2' && que5 === '1,') {
-        $("img").show('photo/php.png')
+      else if (que3 === '3' && que4 === '2') {
+        $(".programLand").show('#sharp')
         }
-      else (que2 === '3' && que3 === '1' && que5 === '3')
-          $("img").show('photo/JS.png')
+      else (que2 === '3' && que3 === '1')
+          $(".programLand").show('#java')
+    event.preventDefault();
   });
 });
