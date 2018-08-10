@@ -4,6 +4,16 @@ p {
   text-align: justify;
 }
 
-#secondBody {
+img {
+  size: 50%;
+}
+
+#java {
+  display: none;
+}
+#sharp {
+  display: none;
+}
+#php {
   display: none;
 }

@@ -1,15 +1,20 @@
 $(document).ready(function() {
-  $("#question1").on(function() {
+  $("#survey").submit(.chanege,function(event) {
 
-    var yes = $("#question1").val();
-    var nope = $("#question1").val();
+    var que1 = ("#question1").val();
+    var que2 = ("#question2").val();
+    var que3 = ("#question3").val();
+    var que4 = ("#question4").val();
+    var que5 = ("#question5").val();
 
-    if (yes.val() === "option1"){
-      $("#secondBody").show();
-    }
-    else (nope.val() === "option2") {
-      alert("Sorry, this survey is not meant for you!")
-    }
-
+    if (que2 === '3' && que3 === '1' && que5=== '3') {
+      $(".programLang").show.image("#java")
+      }
+      else if (que 2 === '2' && que3 === '2' && que5 === '2') {
+        $(".programLang").show.image("sharp")
+      }
+      else (que3 === '3' && que4 === '2' && que5 === '1'){
+        $(".programLang").show.image("php")
+      }
   });
 });
