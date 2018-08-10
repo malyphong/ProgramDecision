@@ -14,14 +14,20 @@ $(document).ready(function() {
         }
       else if (que2 === '2' && que3 === '2') {
         $(".php").show();
+        $(".sharp").hide();
+        $(".java").hide();
         alert("this is php!")
         }
       else if (que3 === '3' && que4 === '2') {
         $(".sharp").show();
+        $(".java").hide();
+        $(".php").hide();
         alert("this is sharp##")
         }
       else if (que2 === '3' && que3 === '1') {
           $(".java").show();
+          $(".php").hide();
+          $(".sharp").hide();
         alert("this is javaaaa")
         }
     event.preventDefault();

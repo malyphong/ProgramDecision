@@ -3,7 +3,9 @@ p {
   width: 75%;
   text-align: justify;
 }
-
+img {
+  width: 50%;
+}
 .java {
   display: none;
 }
