@@ -11,14 +11,17 @@ $(document).ready(function() {
     if (que1 === '2') {
         alert("This survey is not meant for you!")
         }
-      else if (que2 === '2' && que3 === '2' || que3 === '1') {
-        $(".programLang").show('#php')
+      else if (que2 === '2' && que3 === '2') {
+        // $(".programLang").show(image('photo/php.png'))
+        alert("this is php!")
         }
       else if (que3 === '3' && que4 === '2') {
-        $(".programLand").show('#sharp')
+        // $(".programLang").show(image('photo/csharp.png'))
+        alert("this is sharp##")
         }
       else (que2 === '3' && que3 === '1')
-          $(".programLand").show('#java')
+          // $(".programLang").show(image('photo/JS.png'))
+          alert("this is javaaaa")
     event.preventDefault();
   });
 });
