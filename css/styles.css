@@ -1,0 +1,9 @@
+p {
+  font-family: monospace;
+  width: 75%;
+  text-align: justify;
+}
+
+.mainQuestions {
+  display: none;
+}
