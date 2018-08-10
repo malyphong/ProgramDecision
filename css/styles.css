@@ -4,16 +4,12 @@ p {
   text-align: justify;
 }
 
-img {
-  size: 50%;
-}
-
-#java {
+.java {
   display: none;
 }
-#sharp {
+.sharp {
   display: none;
 }
-#php {
+.php {
   display: none;
 }
