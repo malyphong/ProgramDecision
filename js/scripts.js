@@ -10,7 +10,8 @@ $(document).ready(function() {
 // image id tags
 
     if (que1 === '2') {
-        alert("This survey is not meant for you!")
+        $("#noMatch").show();
+        $("#mainbody").hide();
         }
       else if (que2 === '2' && que3 === '2') {
         $(".php").show();

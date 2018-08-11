@@ -6,6 +6,12 @@ p {
 img {
   width: 50%;
 }
+#noMatch {
+  display: none;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
 .java {
   display: none;
 }
