@@ -1,26 +1,26 @@
 $(document).ready(function() {
   $(".form-group").submit(function(event) {
 
-    var que1 = $("#question1").val();
-    var que2 = $("#question2").val();
-    var que3 = $("#question3").val();
-    var que4 = $("#question4").val();
-    var que5 = $("#question5").val();
+    var question1 = $("#question1").val();
+    var question2 = $("#question2").val();
+    var question3 = $("#question3").val();
+    var question4 = $("#question4").val();
+    var question5 = $("#question5").val();
 
-    if (que1 === '2') {
+    if (question1 === '2') {
         $("#noMatch").show();
         $("#mainbody").hide();
-    } else if (que2 === '2' && que3 === '2') {
+    } else if (question2 === '2' && que3stion === '2') {
         $("#php").show();
         $("#sharp").hide();
         $("#java").hide();
         $("#mainbody").hide();
-    } else if (que3 === '3' && que4 === '2') {
+    } else if (question3 === '3' && question4 === '2') {
         $("#sharp").show();
         $("#java").hide();
         $("#php").hide();
         $("#mainbody").hide();
-    } else if (que2 === '3' && que3 === '1') {
+    } else if (question2 === '3' && question3 === '1') {
           $("#java").show();
           $("#php").hide();
           $("#sharp").hide();
