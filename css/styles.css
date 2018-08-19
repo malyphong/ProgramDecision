@@ -3,21 +3,30 @@ p {
   width: 75%;
   text-align: justify;
 }
+
 img {
   width: 50%;
 }
+
 #noMatch {
   display: none;
   background-color: red;
   color: white;
   text-align: center;
 }
-.java {
+
+#photo {
+  align-self: center;
+}
+
+#java {
   display: none;
 }
-.sharp {
+
+#sharp {
   display: none;
 }
-.php {
+
+#php {
   display: none;
 }
